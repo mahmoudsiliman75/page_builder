@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap');
+
+// START:: VARIABLES
+@import 'variables.scss';
+// END:: VARIABLES
+
+// START:: MIXINS
+@import 'mixins.scss';
+// END:: MIXINS
+
+// START:: GLOBA AR STYLES
+body {
+  font-family: 'Cairo', sans-serif;
+  overflow-x: hidden;
+}
+
+.form-check {
+  padding-right: 1.25rem;
+  .form-check-input {
+    margin-right: -1.25rem;
+  }
+}
+// END:: GLOBA AR STYLES
+
+// START:: PAGES AR STYLES
+.about_us_sec {
+  .row {
+    .about_us_img_wraper {
+      box-shadow: 45px 25px 0px 5px #efefef;
+      border-radius: 10px 0 0 10px;
+      img {
+        border-radius: 10px 0 0 10px;
+      }
+    }
+  }
+}
+// END:: PAGES AR STYLES

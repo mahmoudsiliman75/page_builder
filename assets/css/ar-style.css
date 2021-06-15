@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap");
+body {
+  font-family: 'Cairo', sans-serif;
+  overflow-x: hidden;
+}
+
+.form-check {
+  padding-right: 1.25rem;
+}
+
+.form-check .form-check-input {
+  margin-right: -1.25rem;
+}
+
+.about_us_sec .row .about_us_img_wraper {
+  -webkit-box-shadow: 45px 25px 0px 5px #efefef;
+          box-shadow: 45px 25px 0px 5px #efefef;
+  border-radius: 10px 0 0 10px;
+}
+
+.about_us_sec .row .about_us_img_wraper img {
+  border-radius: 10px 0 0 10px;
+}
+/*# sourceMappingURL=ar-style.css.map */
